@@ -78,8 +78,8 @@ span {
     height: calc(100vh - 40px);
     background-size: 100%;
     position: relative;
-    margin-top: 90px;
-    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 }
 
