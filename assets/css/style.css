@@ -1,0 +1,165 @@
+
+
+@charset "UTF-8";
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  letter-spacing: 0.7px;
+  color: black;
+}
+
+h2 {
+  color: #000;
+  font-weight: 600;
+}
+
+
+a {
+  text-decoration: underline;
+}
+
+/* a:hover {
+  color: black;
+} */
+
+p {
+  color: #505050;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+span {
+  letter-spacing: 1px;
+}
+
+.img-fluid {
+  height: 60px;
+  margin-bottom: 30px;
+  width: 60px;
+}
+
+.container-full {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background-size: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+@media (min-width: 1025px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-size: 100%;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+}
+
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+  max-width: 850px;
+  margin: auto;
+}
+
+#hero h1 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Nunito Sans", sans-serif;
+  color: black;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: left;
+  }
+}
+
+#hero h2 {
+  color: black;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+}
+
+
+ul {
+  letter-spacing: 0.8px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+  li {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+}
+
+#hero img {
+  max-width: 95%;
+  margin-bottom: 30px;
+}
+
+
