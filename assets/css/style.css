@@ -59,21 +59,21 @@ a:hover {
 
 @media (max-width: 500px) {
   #hero {
-    /* width: 100%;
+    width: 100%;
     height: calc(100vh - 40px);
     background-size: 100%;
-    position: relative; */
+    position: relative;
     margin-top: 20px;
     margin-bottom: 90px;
   }
 }
 
 #hero .hero-container {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0;
   top: 0;
   left: 20px;
-  right: 20px;
+  right: 20px; */
   display: flex;
   justify-content: center;
   align-items: left;
@@ -81,6 +81,7 @@ a:hover {
   text-align: left;
   max-width: 740px;
   margin: auto;
+  padding: 70px 20px 20px 20px;
 }
 
 @media (max-width: 500px) {
